@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wazunga-page/precache-manifest.6287a94ca6928364adcd6956ed7f154b.js"
+  "/wazunga-page/precache-manifest.141c86732304cb66687ba69ab8c4b0fd.js"
 );
 
 self.addEventListener('message', (event) => {

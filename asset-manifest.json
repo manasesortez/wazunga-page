@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/wazunga-page/static/css/main.5f361e03.chunk.css",
-    "main.js": "/wazunga-page/static/js/main.6195da9a.chunk.js",
-    "main.js.map": "/wazunga-page/static/js/main.6195da9a.chunk.js.map",
-    "runtime-main.js": "/wazunga-page/static/js/runtime-main.488f3d88.js",
-    "runtime-main.js.map": "/wazunga-page/static/js/runtime-main.488f3d88.js.map",
-    "static/js/2.109b6bde.chunk.js": "/wazunga-page/static/js/2.109b6bde.chunk.js",
-    "static/js/2.109b6bde.chunk.js.map": "/wazunga-page/static/js/2.109b6bde.chunk.js.map",
+    "main.css": "/wazunga-page/static/css/main.54a6fe6a.chunk.css",
+    "main.js": "/wazunga-page/static/js/main.20cc01a1.chunk.js",
+    "main.js.map": "/wazunga-page/static/js/main.20cc01a1.chunk.js.map",
+    "runtime-main.js": "/wazunga-page/static/js/runtime-main.eab9cd56.js",
+    "runtime-main.js.map": "/wazunga-page/static/js/runtime-main.eab9cd56.js.map",
+    "static/css/2.a2c18f5e.chunk.css": "/wazunga-page/static/css/2.a2c18f5e.chunk.css",
+    "static/js/2.9fc8360f.chunk.js": "/wazunga-page/static/js/2.9fc8360f.chunk.js",
+    "static/js/2.9fc8360f.chunk.js.map": "/wazunga-page/static/js/2.9fc8360f.chunk.js.map",
     "index.html": "/wazunga-page/index.html",
-    "precache-manifest.6287a94ca6928364adcd6956ed7f154b.js": "/wazunga-page/precache-manifest.6287a94ca6928364adcd6956ed7f154b.js",
+    "precache-manifest.141c86732304cb66687ba69ab8c4b0fd.js": "/wazunga-page/precache-manifest.141c86732304cb66687ba69ab8c4b0fd.js",
     "service-worker.js": "/wazunga-page/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/wazunga-page/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.109b6bde.chunk.js.LICENSE.txt": "/wazunga-page/static/js/2.109b6bde.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/wazunga-page/static/media/logo.5d5d9eef.svg"
+    "static/css/2.a2c18f5e.chunk.css.map": "/wazunga-page/static/css/2.a2c18f5e.chunk.css.map",
+    "static/css/main.54a6fe6a.chunk.css.map": "/wazunga-page/static/css/main.54a6fe6a.chunk.css.map",
+    "static/js/2.9fc8360f.chunk.js.LICENSE.txt": "/wazunga-page/static/js/2.9fc8360f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.488f3d88.js",
-    "static/js/2.109b6bde.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.6195da9a.chunk.js"
+    "static/js/runtime-main.eab9cd56.js",
+    "static/css/2.a2c18f5e.chunk.css",
+    "static/js/2.9fc8360f.chunk.js",
+    "static/css/main.54a6fe6a.chunk.css",
+    "static/js/main.20cc01a1.chunk.js"
   ]
 }
