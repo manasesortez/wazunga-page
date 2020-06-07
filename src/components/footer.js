@@ -6,7 +6,7 @@ import logInstagram from '../svg/instagram.71c04586.svg';
 import logGithub from '../images/Github-512.png';
 
 const footer = () => (
-        <footer>
+        <footer style = {{"margin-top": "50px"}}>
             <div className= "div-block-61">
                 <div className="div-block-64">
                 <br/>

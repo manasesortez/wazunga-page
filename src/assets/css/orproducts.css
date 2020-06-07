@@ -1,0 +1,96 @@
+@import url("https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css");
+
+.button_1 {
+  margin-left: -1rem;
+}
+
+.palss {
+  padding: 0% 5%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
+  max-height: 10rem
+}
+.palss .halfs {
+  width: 86%;
+  height: 100%;
+  
+}
+.palss .halfs .imag {
+  flex-grow: 1;
+}
+.palss .halfs .imag img {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  margin-bottom: 5%;
+}
+.palss .text-sides {
+  margin: auto;
+  flex-grow: 1;
+  max-width: 90%;
+}
+.palss .text-sides ._titl {
+  line-height: 90%;
+  margin: 0 auto 5%;
+  width: 90%;
+}
+.indexerr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5% !important;
+}
+.indexerr.black .progress {
+  background: rgba(0, 0, 0, 0.2);
+}
+.indexerr.black .progress.true {
+  background: rgba(0, 0, 0, 0.75);
+}
+.indexerr .progress {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0.3rem;
+  border-radius: 100%;
+  background: rgba(49, 49, 49, 0.2);
+}
+.indexerr .progress.true {
+  background: rgba(49, 49, 49, 0.75);
+}
+.button_1 {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  top: calc(50% - 2rem);
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+}
+.button_1 > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  font-size: 200%;
+}
+.button_1 > *:first-child {
+  margin-right: 0.2rem;
+}
+.button_1 > *:last-child {
+  margin-left: 0.2rem;
+}
+.section_ {
+  position: relative;
+}
+.slider1 {
+  min-height: 13rem;
+  max-height: 13rem;
+}

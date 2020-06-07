@@ -4,13 +4,23 @@
   "license": "MIT",
   "homepage": "https://WazungaCompany.github.io/wazunga-page",
   "dependencies": {
+    "@farbenmeer/react-spring-slider": "^1.1.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "animate.css": "^4.1.0",
     "bulma": "^0.8.2",
+    "ionicons": "4.2.2",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-elastic-carousel": "^0.6.4",
+    "react-scripts": "3.4.1",
+    "react-slideshow-image": "^1.5.3",
+    "react-swift-slider": "^6.4.0",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "predeploy": "npm run build",
