@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap");
+a {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #dede;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #242424 ;
+  }
+
+                      
+.App {
+    text-align: center;
+}
+.menu__custom {
+    width: 300px;
+    font-family: "Lato", sans-serif;
+    z-index: 3;
+}
+  
+  .div-block-61 {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #dede!important;
+}
+
+.div-block-25 {
+    height: 35%;
+}
+
+.div-block-64 {
+    display: block;
+    text-align: center;
+}
+
+.paragraph-35 {
+    margin-bottom: 5%!important;
+}
+
+.correo,
+.direccion,
+.derechos {
+  margin: 2 auto 3% !important;
+  width: 70%;
+}
+
+
+.div-block-66 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.svgR {
+    width: 100%;
+}
+
+.correo {
+    margin: auto;
+    margin-right: 1%!important;
+}
+
+.div-block-64 a {
+    color: #dede!important;
+    text-decoration: none;
+    margin: auto;
+}
+
+.div-block-25 {
+    height: 35%;
+}
+
+.direccion {
+    margin: 20 auto 3%!important;
+    width: 70%;
+}
+
+.derechos {
+    margin: 0;
+}
+
+.div-block-64 {
+    display: block;
+    text-align: center;
+  }
+  .div-block-64 a {
+    color: #dede !important;
+    text-decoration: none;
+    margin: auto;
+  }
+  .derechos {
+    margin: 0;
+  }
+
+.correo, .derechos, .direccion {
+    margin: 0 auto 3%!important;
+    width: 70%;
+}
+
+._In {
+    margin-left: 0;
+}
+
+.paragraph-35 {
+    margin-bottom: 5%!important;
+}
+
+.none {
+    display: none;
+}
+
+
+
+
+.glow-on-hover {
+    
+    color: #fff;
+    background: #242424;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #31C9DC, #7CDDE9, #91DAE3, #A5D6DC, #B6E3E9, #C6F0F6, #C6F0F6, #A5A5A5, #4B4B4B);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #242424
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #242424;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 
 const NavbarItemsList = ({ buttons }) => (
     <ol className="menu__content" style={{ "margin-top": "20px" }}>

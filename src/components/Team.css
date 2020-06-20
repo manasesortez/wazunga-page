@@ -1,0 +1,197 @@
+.container__nhulox {
+  background-color: #fff;
+  height: auto;
+  padding: 30px 30px 30px 30px;
+  color: #000;
+}
+
+.about_dev {
+  text-align: justify;
+}
+
+.social_logo_container {
+  margin-block-start: 3%;
+}
+
+.social_logo {
+  inline-size: 35px;
+  block-size: 35px;
+  background-color: #333;
+}
+
+.social_logo_is_middle {
+  margin: 0 25% 0 25%;
+}
+
+.foto__fit {
+  object-fit: contain;
+}
+
+.column__nhulox {
+  display: flex;
+  flex: 33%;
+  align-items: center;
+  padding-inline-start: 20%;
+}
+
+/*Celulares*/
+@media only screen and (min-width: 375px) {
+  .foto__size {
+    inline-size: 150px;
+    block-size: 150px;
+  }
+
+  .container__nhulox {
+    margin: 0 1px 0 1px;
+  }
+
+  .nombre_dev {
+    font-size: 16pt;
+    overflow: hidden;
+  }
+
+  .member_container_margin_top {
+    margin-block-start: 30px;
+  }
+}
+
+/*Celulares grandes*/
+@media only screen and (min-width: 600px) {
+  .foto__size {
+    inline-size: 175px;
+    block-size: 175px;
+  }
+
+  .container__nhulox {
+    margin: 0 1px 0 1px;
+  }
+
+  .nombre_dev {
+    font-size: 24pt;
+    overflow: hidden;
+  }
+
+  .about_dev {
+    font-size: 14pt;
+  }
+
+  .social_logo {
+    inline-size: 40px;
+    block-size: 40px;
+    background-color: #333;
+  }
+
+  .member_container_margin_top {
+    margin-block-start: 30px;
+  }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 760px) {
+  .foto__size {
+    inline-size: 175px;
+    block-size: 175px;
+  }
+
+  .container__nhulox {
+    margin: 0 5px 0 5px;
+  }
+
+  .nombre_dev {
+    font-size: 20pt;
+    overflow: hidden;
+  }
+  .about_dev {
+    font-size: 14pt;
+  }
+
+  .social_logo {
+    inline-size: 40px;
+    block-size: 40px;
+    background-color: #333;
+  }
+
+  .member_container_margin_top {
+    margin-block-start: 0px;
+  }
+}
+
+/*Monitores normales*/
+@media only screen and (min-width: 994px) {
+  .container__nhulox {
+    margin: 0px 5px 0 5px;
+  }
+
+  .foto__size {
+    inline-size: 200px;
+    block-size: 200px;
+  }
+
+  .nombre_dev {
+    font-size: 25pt;
+    overflow: hidden;
+  }
+  .about_dev {
+    font-size: 14pt;
+  }
+
+  .social_logo {
+    inline-size: 40px;
+    block-size: 40px;
+    background-color: #333;
+  }
+}
+
+/*Monitores HD*/
+@media only screen and (min-width: 1024px) {
+  .container__nhulox {
+    margin: 0px 10px 0 10px;
+  }
+
+  .foto__size {
+    inline-size: 225px;
+    block-size: 225px;
+  }
+
+  .nombre_dev {
+    font-size: 30pt;
+    overflow: hidden;
+  }
+  .about_dev {
+    font-size: 15pt;
+  }
+
+  .social_logo {
+    inline-size: 40px;
+    block-size: 40px;
+    background-color: #333;
+  }
+}
+
+/*Monitores FHD o mas*/
+@media only screen and (min-width: 1440px) {
+  .container__nhulox {
+    margin: 0px 15px 0 15px;
+  }
+
+  .foto__size {
+    inline-size: 275px;
+    block-size: 275px;
+  }
+
+  .nombre_dev {
+    font-size: 36pt;
+    overflow: hidden;
+  }
+
+  .about_dev {
+    margin-block-start: 1%;
+    font-size: 16pt;
+  }
+
+  .social_logo {
+    inline-size: 45px;
+    block-size: 45px;
+    background-color: #333;
+  }
+}
