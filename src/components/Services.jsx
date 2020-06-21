@@ -71,7 +71,7 @@ export default class services extends PureComponent{
                         </div>
 
                         <ScrollAnimation delay="1600" animateIn="fadeIn" duration={1.5} animateOnce="true">
-                            <button className="btn-1" style={{"font-family": "Roboto Mono"}}>Contactanos</button>
+                            <button className="btn-1" style={{"font-family": "Roboto Mono", "margin-top":"20px"}}>Contactanos</button>
                         </ScrollAnimation>
                     </div>
                 </div>
