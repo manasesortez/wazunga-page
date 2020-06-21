@@ -7,6 +7,21 @@ a {
     color: #dede;
 }
 
+.button {
+    cursor: pointer;
+    outline: none;
+    background-color: #242424;
+    border: none;
+}
+  
+.button:hover {background-color: #242424}
+  
+.button:active {
+    background-color: #242424;
+    box-shadow: 0 5px #242424;
+    transform: translateY(4px);
+}
+
 footer {
     width: 100%;
     left: 0;

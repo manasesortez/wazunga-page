@@ -47,7 +47,7 @@ export default class services extends PureComponent{
                     <div className="section-3">
                         <ScrollAnimation animateIn="fadeInUp" duration={1.5} animateOnce="true">
                             <p className="paragraph-6 responseT">
-                            <b>Servicios</b>
+                            <b style={{"font-family": "Roboto Mono , monospace"}}>Servicios</b>
                             </p>
                             <p className="paragraph-7">
                             </p>
@@ -61,17 +61,17 @@ export default class services extends PureComponent{
 
                         <div className="div-responsive" style = {{"margin-bottom": "10px"}}>
                             <Slide {...fadeProperties} >
-                                <img src={webDesign} />
-                                <img src={mobile} />
-                                <img src={dataBase} />
-                                <img src={Analisis} />
-                                <img src={vision} />
-                                <img src={software} />
+                                <img src={webDesign} style = {{"width": "200px", height: "230px", "margin-top": "20px"}} />
+                                <img src={mobile}  style = {{"width": "200px", height: "230px" , "margin-top": "20px"}} />
+                                <img src={dataBase}  style = {{"width": "200px", height: "230px", "margin-top": "20px"}} />
+                                <img src={Analisis}  style = {{"width": "200px", height: "230px", "margin-top": "20px"}}/>
+                                <img src={vision}  style = {{"width": "200px", height: "230px", "margin-top": "20px"}} />
+                                <img src={software} style = {{"width": "200px", height: "230px", "margin-top": "20px"}}  />
                             </Slide>
                         </div>
 
                         <ScrollAnimation delay="1600" animateIn="fadeIn" duration={1.5} animateOnce="true">
-                            <button className="btn-1">Contactanos</button>
+                            <button className="btn-1" style={{"font-family": "Roboto Mono"}}>Contactanos</button>
                         </ScrollAnimation>
                     </div>
                 </div>

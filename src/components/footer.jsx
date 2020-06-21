@@ -11,15 +11,15 @@ const footer = () => (
     <footer>
         <div className="div-block-61">
             <div className="div-block-64">
-                <p className="paragraph-35" style={{ "fontSize": "20px", "font-family": "lato" }}>Follow us</p>
+                <p className="" style={{ "fontSize": "20px", "font-family": "lato", "margin-top": "20px", "margin-bottom":"20px"}}>Follow us</p>
                 <div>
-                    <a className="glow-on-hover Redes _In" style={{ "margin-right": "75px" }} href="facebook link" target="_blank">
+                    <a className="Redes _In" style={{ "margin-right": "75px" }} href="facebook link" target="_blank">
                         <img alt="logFacebook" className="svgR" style={{ "width": "35px" }} src={logFacebook} />
                     </a>
-                    <a className="glow-on-hover Redes" style={{ "margin-right": "75px" }} href="twitter link" target="_blank" >
-                        <img alt="logInstagram" className="svgR" style={{ "width": "35px" }} src={logInstagram} />
+                    <a className="Redes" style={{ "margin-right": "75px" }} href="twitter link" target="_blank" >
+                        <img alt="logInstagram" className="svgR " style={{ "width": "35px" }} src={logInstagram} />
                     </a>
-                    <a className="glow-on-hover" href="Git-Hub link " target="_blank" >
+                    <a className="" href="Git-Hub link " target="_blank" >
                         <img alt="logGithub" className="svgR" style={{ "width": "35px" }} src={logGithub} />
                     </a>
                 </div>
