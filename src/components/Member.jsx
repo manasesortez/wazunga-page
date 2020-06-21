@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Member = ({ name, about, img, socials, side, isFirst }) => {
+const Member = ({ name, position, about, img, socials, side, isFirst }) => {
   const handlerIsFirst = hIsFirst => (
     hIsFirst ? 'column is-6-desktop is-6-tablet is-12-mobile ' : 'column is-6-desktop is-6-tablet is-12-mobile member_container_margin_top'
   )
@@ -8,12 +8,12 @@ const Member = ({ name, about, img, socials, side, isFirst }) => {
   const isLeftSide = () => (
     <div className={handlerIsFirst(isFirst)}>
       <div className="columns is-mobile is-tablet">
-        <div
-          className="column is-narrow foto__size"
-          style={{ backgroundColor: '#999' }}
-        />
-        <div className="column nombre_dev">
-          {name}
+        <div className="column is-narrow foto__size">
+          <img src={img} class="foto__fit" alt='leftDev'/>
+        </div>
+        <div className="column __dev">
+          <div className="nombre_dev"> {name}</div>
+          <div className="position__dev"> {position}</div>
         </div>
       </div>
       <div className="columns">
@@ -32,13 +32,13 @@ const Member = ({ name, about, img, socials, side, isFirst }) => {
   const isRightSide = () => (
     <div className={handlerIsFirst(isFirst)}>
       <div className="columns is-mobile is-tablet">
-        <div className="column nombre_dev" style={{ textAlign: "right" }}>
-          {name}
+        <div className="column __dev" style={{ textAlign: "right" }}>
+          <div className="nombre_dev"> {name}</div>
+          <div className="position__dev">{position}</div>
         </div>
-        <div
-          className="column is-narrow foto__size"
-          style={{ backgroundColor: '#999' }}
-        />
+        <div className="column is-narrow foto__size">
+          <img src={img} class="foto__fit" alt='rightDev'/>
+        </div>
       </div>
       <div className="columns">
         <div className="column is-12 about_dev">{about}</div>

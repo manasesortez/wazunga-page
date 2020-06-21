@@ -7,6 +7,7 @@ import NavbarLogo from './NavbarLogo';
 import Footer from './footer';
 import Lorem from './Lorem';
 import Team from './Team';
+import Services from './Services';
 
 const brand = 'https://firebasestorage.googleapis.com/v0/b/wazunga-briefcase.appspot.com/o/wazunga_brand.png?alt=media&token=ecc0df7a-16fd-4778-aa64-b4716df0c088'
 
@@ -14,14 +15,15 @@ class Navbar extends React.Component {
   state = {
     teamRef: React.createRef(),
     footerRef: React.createRef(),
+    servicesRef: React.createRef(),
   }
 
   renderMain() {
     return (
       <div>
         <div><Lorem /></div>
+        <div ref={this.state.servicesRef}><Services /></div>
         <div ref={this.state.teamRef}><Team /></div>
-        <div><Lorem /></div>
         <div ref={this.state.footerRef}><Footer /></div>
       </div >
     )
@@ -60,7 +62,13 @@ class Navbar extends React.Component {
                 <a href="#0" className="button__nhulox"><Link to="/wazunga-page">Home</Link></a>
               </li>
               <li className="menu-item" style={{ marginBottom: "30px" }}>
-                <a href="#0" className="button__nhulox"><Link to="/wazunga-page/team" onClick={(e)=>{
+                <a href="#0" className="button__nhulox"><Link to="/wazunga-page/services" onClick={(e) => {
+                  this.main = this.state.servicesRef
+                  this.handleScroll(e)
+                }}>Services</Link></a>
+              </li>
+              <li className="menu-item" style={{ marginBottom: "30px" }}>
+                <a href="#0" className="button__nhulox"><Link to="/wazunga-page/team" onClick={(e) => {
                   this.main = this.state.teamRef
                   this.handleScroll(e)
                 }}>Team</Link></a>

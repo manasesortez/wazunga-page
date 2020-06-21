@@ -10,9 +10,19 @@ import dataBase from '../assets/icon/DataBase.png';
 import Analisis from '../assets/icon/DataAnalytics.png';
 import vision from '../assets/icon/Vision.png';
 import software from '../assets/icon/SoftwareE.png';
-import Slider from '@farbenmeer/react-spring-slider';
+//import Slider from '@farbenmeer/react-spring-slider';
 import Carousel from 'react-elastic-carousel';
 import {Slide} from 'react-slideshow-image';
+import '../assets/css/animate.css/animate.min.css';
+import '../assets/css/animate.css/animate.css';
+import '../assets/css/animate.css/animate.compat.css';
+import '../assets/css/animate.css/source/fading_entrances/fadeIn.css';
+import '../assets/css/ionicons@4.2.2/css/ionicons.min.css';
+
+import '../assets/css/wazunga.scss';
+import '../assets/css/orproducts.css';
+import '../assets/css/responsive.css';
+import '../assets/css/Wazunga.css';
 
 
   const fadeProperties = {
