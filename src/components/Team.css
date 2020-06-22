@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;0,700;1,300&display=swap");
 
 .container__nhulox {
   height: auto;
@@ -46,12 +46,12 @@
 
 .social_logo_container {
   margin-block-start: 3%;
+  margin-block-end: 8%;
 }
 
 .social_logo {
   inline-size: 35px;
   block-size: 35px;
-  background-color: #333;
 }
 
 .social_logo_is_middle {
@@ -83,7 +83,7 @@ img {
 }
 
 /*Celulares*/
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 350px) {
   .foto__size {
     inline-size: 150px;
     block-size: 150px;
@@ -113,7 +113,7 @@ img {
 
   .container__nhulox {
     margin: 0 1px 0 1px;
-    padding-block-start: 15%;
+    padding-block-start: 12%;
   }
 
   .nombre_dev {
@@ -128,7 +128,6 @@ img {
   .social_logo {
     inline-size: 40px;
     block-size: 40px;
-    background-color: #333;
   }
 
   .member_container_margin_top {
@@ -145,7 +144,7 @@ img {
 
   .container__nhulox {
     margin: 0 5px 0 5px;
-    padding-block-start: 15%;
+    padding-block-start: 10%;
   }
 
   .nombre_dev {
@@ -159,7 +158,6 @@ img {
   .social_logo {
     inline-size: 40px;
     block-size: 40px;
-    background-color: #333;
   }
 
   .member_container_margin_top {
@@ -171,7 +169,7 @@ img {
 @media only screen and (min-width: 994px) {
   .container__nhulox {
     margin: 0px 5px 0 5px;
-    padding-block-start: 12%;
+    padding-block-start: 10%;
   }
 
   .foto__size {
@@ -190,7 +188,6 @@ img {
   .social_logo {
     inline-size: 40px;
     block-size: 40px;
-    background-color: #333;
   }
 }
 
@@ -198,7 +195,7 @@ img {
 @media only screen and (min-width: 1024px) {
   .container__nhulox {
     margin: 0px 10px 0 10px;
-    padding-block-start: 10%;
+    padding-block-start: 8%;
   }
 
   .foto__size {
@@ -217,7 +214,6 @@ img {
   .social_logo {
     inline-size: 40px;
     block-size: 40px;
-    background-color: #333;
   }
 }
 
@@ -225,7 +221,7 @@ img {
 @media only screen and (min-width: 1440px) {
   .container__nhulox {
     margin: 0px 15px 0 15px;
-    padding-block-start: 10%;
+    padding-block-start: 6%;
   }
 
   .foto__size {
@@ -246,6 +242,5 @@ img {
   .social_logo {
     inline-size: 45px;
     block-size: 45px;
-    background-color: #333;
   }
 }

@@ -6,18 +6,54 @@ import sergioIMG from '../images/sergio.png'
 import manasIMG from '../images/manas.png'
 
 const Team = () => {
-  let about = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, corrupti, aliquid laudantium ullam perferendis nesciunt placeat, numquam facere dignissimos quos hic voluptatibus at.Eaque esse nesciunt inventore placeat, praesentium maiores ? '
-
-  let name = 'Nombre del integrante'
+  let wazungaTeam = [
+    {
+      name: 'Sergio Bernal',
+      position: 'Wazunga Founder',
+      about: 'Full-Stack developer, JS-Lover and GNU/Linux enthusiast. Creador del concepto  "Wazunga", una idea que surgió durante mis años universitarios y que poco a poco junto con Alberto, la estamos haciendo posible.',
+      isFirst: true,
+      socials: {
+        github: 'https://github.com/nhulox97',
+        twitter: 'https://twitter.com/sergio_dosv',
+        instagram: 'https://www.instagram.com/sergio_dvlpr/'
+      },
+      side: 'left',
+      img: sergioIMG
+    },
+    {
+      name: 'Alberto Turcios',
+      position: 'Wazunga Co-Founder',
+      about: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae',
+      isFirst: false,
+      socials: {
+        github: 'https://github.com/manasesortez',
+        twitter: 'https://twitter.com/Manases61337426',
+        instagram: 'https://www.instagram.com/manases.ortez/'
+      },
+      side: 'right',
+      img: manasIMG
+    }
+  ]
 
   return (
     <div style={{ backgroundColor: '#363636' }}>
       <div class="columns container__nhulox">
-
-        <Member isFirst={true} about={about} name={'Sergio A. Bernal'} side='left'
-          img={sergioIMG} position='Wazunga Founder' />
-        <Member isFirst={false} about={about} name={'Alberto M. Turcios'} side='right'
-          img={manasIMG} position='Wazunga Co-Founder' />
+        {
+          wazungaTeam.map((member, index) => {
+            return (
+              <Member
+                key={index}
+                isFirst={member.isFirst}
+                side={member.side}
+                name={member.name}
+                position={member.position}
+                about={member.about}
+                img={member.img}
+                socials={member.socials}
+              />
+            )
+          })
+        }
       </div>
     </div>
   )
