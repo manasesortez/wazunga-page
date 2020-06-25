@@ -21,6 +21,7 @@
     "react-scripts": "3.4.1",
     "react-slideshow-image": "^1.5.3",
     "react-swift-slider": "^6.4.0",
+    "typewriter-effect": "^2.13.1",
     "yarn": "^1.22.4"
   },
   "scripts": {

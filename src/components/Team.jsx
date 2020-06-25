@@ -37,7 +37,7 @@ const Team = () => {
 
   return (
     <div style={{ backgroundColor: '#363636' }}>
-      <div class="columns container__nhulox">
+      <div className="columns container__nhulox">
         {
           wazungaTeam.map((member, index) => {
             return (

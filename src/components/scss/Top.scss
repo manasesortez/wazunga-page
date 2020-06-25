@@ -1,0 +1,54 @@
+.wrapper__top {
+    background-color: #242424;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content__top {
+    color: #eee;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    z-index: 100;
+    padding-top: 20%;
+}
+
+.background__top {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+@for $i from 1 through 30 {
+  @keyframes particle-animation-#{$i} {
+    100% {
+      transform: translate3d(
+        (random(90) * 1vw),
+        (random(90) * 1vh),
+        (random(100) * 1px)
+      );
+    }
+  }
+
+  .particle:nth-child(#{$i}) {
+    animation: particle-animation-#{$i} 60s infinite;
+    $size: random(10) + 5 + px;
+    opacity: random(100) / 100;
+    height: $size;
+    width: $size;
+    animation-delay: -$i * 0.2s;
+    transform: translate3d(
+      (random(90) * 1vw),
+      (random(90) * 1vh),
+      (random(100) * 1px)
+    );
+    background: #2fcce0;
+  }
+}

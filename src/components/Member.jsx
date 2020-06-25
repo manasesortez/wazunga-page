@@ -13,7 +13,7 @@ const Member = ({ name, position, about, img, socials, side, isFirst }) => {
     <div className={handlerIsFirst(isFirst)}>
       <div className="columns is-mobile is-tablet">
         <div className="column is-narrow foto__size">
-          <img src={img} class="foto__fit" alt='leftDev' />
+          <img src={img} className="foto__fit" alt='leftDev' />
         </div>
         <div className="column __dev">
           <div className="nombre_dev"> {name}</div>
@@ -37,7 +37,7 @@ const Member = ({ name, position, about, img, socials, side, isFirst }) => {
           <div className="position__dev">{position}</div>
         </div>
         <div className="column is-narrow foto__size">
-          <img src={img} class="foto__fit" alt='rightDev' />
+          <img src={img} className="foto__fit" alt='rightDev' />
         </div>
       </div>
       <div className="columns">
@@ -49,15 +49,18 @@ const Member = ({ name, position, about, img, socials, side, isFirst }) => {
 
   const socialDev = () => (
     <div className="column__nhulox social_logo_container">
-      <a href={socials.github} className="social_logo" target="_blank">
+      <a href={socials.github}
+        className="social_logo" target="_blank" rel="noopener noreferrer">
         <img alt="githubLogo" className="foto__fit" src={githubLogo} />
       </a>
       <a href={socials.instagram}
         className="social_logo social_logo_is_middle"
-        target="_blank">
+        target="_blank"
+        rel="noopener noreferrer">
         <img alt="instagramLogo" className="foto__fit" src={instagramLogo} />
       </a>
-      <a href={socials.twitter} className="social_logo" target="_blank">
+      <a href={socials.twitter}
+        rel="noopener noreferrer" className="social_logo" target="_blank">
         <img alt="twitterLogo" className="foto__fit" src={twitterLogo} />
       </a>
     </div>

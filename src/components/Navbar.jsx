@@ -1,18 +1,16 @@
 import React from 'react';
-//import NavbarItemsList from './NavbarItemsList';
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
-// import NavbarItems from './NavbarItems';
 import './Navbar.css';
 import NavbarLogo from './NavbarLogo';
 import Footer from './footer';
-import Lorem from './Lorem';
 import Team from './Team';
 import Services from './Services';
-
-const brand = 'https://firebasestorage.googleapis.com/v0/b/wazunga-briefcase.appspot.com/o/wazunga_brand.png?alt=media&token=ecc0df7a-16fd-4778-aa64-b4716df0c088'
+import Welcome from './Welcome';
+import brand from '../images/wazunga-brand.png';
 
 class Navbar extends React.Component {
   state = {
+    homeRef: React.createRef(),
     teamRef: React.createRef(),
     footerRef: React.createRef(),
     servicesRef: React.createRef(),
@@ -21,7 +19,7 @@ class Navbar extends React.Component {
   renderMain() {
     return (
       <div>
-        <div><Lorem /></div>
+        <div ref={this.state.homeRef}><Welcome /></div>
         <div ref={this.state.servicesRef}><Services /></div>
         <div ref={this.state.teamRef}><Team /></div>
         <div ref={this.state.footerRef}><Footer /></div>
@@ -57,9 +55,12 @@ class Navbar extends React.Component {
                 />
               </svg>
             </label>
-            <ol className="menu__content" style={{ "margin-top": "50px" }}>
+            <ol className="menu__content" style={{ marginTop: "50px" }}>
               <li className="menu-item" style={{ marginBottom: "30px" }}>
-                <a href="#0" className="button__nhulox"><Link to="/wazunga-page">Home</Link></a>
+                <a href="#0" className="button__nhulox"><Link to="/wazunga-page" onClick={(e) => {
+                  this.main = this.state.homeRef
+                  this.handleScroll(e)
+                }}>Home</Link></a>
               </li>
               <li className="menu-item" style={{ marginBottom: "30px" }}>
                 <a href="#0" className="button__nhulox"><Link to="/wazunga-page/services" onClick={(e) => {

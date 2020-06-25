@@ -83,7 +83,7 @@ img {
 }
 
 /*Celulares*/
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 325px) {
   .foto__size {
     inline-size: 150px;
     block-size: 150px;

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap");
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.welcome__container {
+  padding: 5%;
+  background-color: #242424;
+  width: 100%;
+  color: #ddd;
+}
+
+.welcome__img__container {
+  height: 100%;
+  width: 100%;
+}
+
+.welcome__centered {
+  margin: auto;
+  text-align: center;
+}
+
+.welcome__img {
+  object-fit: contain;
+}
+
+.welcome__contain {
+  object-fit: contain;
+}
+
+.welcome__font {
+  font-family: "Jura", sans-serif;
+}
+
+/*Celulares*/
+@media only screen and (max-width: 600px) {
+  .welcome__container {
+    padding: 20%;
+  }
+  .welcome__img {
+    inline-size: 200px;
+    block-size: 200px;
+  }
+  .welcome__font {
+    font-size: 15pt;
+  }
+}
+
+/*Celulares grandes*/
+@media only screen and (min-width: 600px) {
+  .welcome__img {
+    inline-size: 400px;
+    block-size: 400px;
+  }
+
+  .welcome__font {
+    font-size: 18pt;
+  }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 760px) {
+  .welcome__img {
+    inline-size: 400px;
+    block-size: 400px;
+  }
+
+  .welcome__font {
+    font-size: 24pt;
+  }
+}
+
+/*Monitores normales*/
+@media only screen and (min-width: 994px) {
+  .welcome__img {
+    inline-size: 475px;
+    block-size: 475px;
+  }
+
+  .welcome__font {
+    font-size: 30pt;
+  }
+}
+
+/*Monitores FHD*/
+@media only screen and (min-width: 1024px) {
+  .welcome__img {
+    inline-size: 500px;
+    block-size: 500px;
+  }
+
+  .welcome__font {
+    font-size: 36pt;
+  }
+}
+
+/*Monitores 2HD*/
+@media only screen and (min-width: 1440px) {
+  .welcome__img {
+    inline-size: 600px;
+    block-size: 600px;
+  }
+
+  .welcome__font {
+    font-size: 40pt;
+  }
+}
