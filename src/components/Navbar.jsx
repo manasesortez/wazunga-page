@@ -7,9 +7,11 @@ import Team from './Team';
 import Services from './Services';
 import Welcome from './Welcome';
 import brand from '../images/wazunga-brand.png';
+import Wazunga from './wazungaAbout'
 
 class Navbar extends React.Component {
   state = {
+    wazungaRef:React.createRef(),
     homeRef: React.createRef(),
     teamRef: React.createRef(),
     footerRef: React.createRef(),
@@ -20,6 +22,7 @@ class Navbar extends React.Component {
     return (
       <div>
         <div ref={this.state.homeRef}><Welcome /></div>
+        <div ref={this.state.wazungaRef}><Wazunga /></div> 
         <div ref={this.state.servicesRef}><Services /></div>
         <div ref={this.state.teamRef}><Team /></div>
         <div ref={this.state.footerRef}><Footer /></div>
@@ -62,6 +65,14 @@ class Navbar extends React.Component {
                   this.handleScroll(e)
                 }}>Home</Link></a>
               </li>
+              
+              <li className="menu-item" style={{ marginBottom: "30px" }}>
+                <a href="#0" className="button__nhulox"><Link to="/wazunga-page/about-us" onClick={(e) => {
+                  this.main = this.state.wazungaRef
+                  this.handleScroll(e)
+                }}>About</Link></a>
+              </li>
+
               <li className="menu-item" style={{ marginBottom: "30px" }}>
                 <a href="#0" className="button__nhulox"><Link to="/wazunga-page/services" onClick={(e) => {
                   this.main = this.state.servicesRef

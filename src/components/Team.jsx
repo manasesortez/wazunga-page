@@ -23,7 +23,7 @@ const Team = () => {
     {
       name: 'Alberto Turcios',
       position: 'Wazunga Co-Founder',
-      about: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae',
+      about: 'Full-Stack developer, enthusiast and graphic design develop, a creative person, Junto a Sergio surge la Idea de crear Wazunga, un concepto que cada dia se va haciendo realidad, nuestro interes, es poder innovar y ofrecer un software de calidad "Made in El Salvador".',
       isFirst: false,
       socials: {
         github: 'https://github.com/manasesortez',
