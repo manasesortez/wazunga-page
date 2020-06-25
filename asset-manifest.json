@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/wazunga-page/static/css/main.e3b827c6.chunk.css",
-    "main.js": "/wazunga-page/static/js/main.978fa050.chunk.js",
-    "main.js.map": "/wazunga-page/static/js/main.978fa050.chunk.js.map",
-    "runtime-main.js": "/wazunga-page/static/js/runtime-main.488f3d88.js",
-    "runtime-main.js.map": "/wazunga-page/static/js/runtime-main.488f3d88.js.map",
+    "main.css": "/wazunga-page/static/css/main.b6575579.chunk.css",
+    "main.js": "/wazunga-page/static/js/main.1e253f43.chunk.js",
+    "main.js.map": "/wazunga-page/static/js/main.1e253f43.chunk.js.map",
+    "runtime-main.js": "/wazunga-page/static/js/runtime-main.eab9cd56.js",
+    "runtime-main.js.map": "/wazunga-page/static/js/runtime-main.eab9cd56.js.map",
     "static/css/2.a2c18f5e.chunk.css": "/wazunga-page/static/css/2.a2c18f5e.chunk.css",
-    "static/js/2.9e3c8e25.chunk.js": "/wazunga-page/static/js/2.9e3c8e25.chunk.js",
-    "static/js/2.9e3c8e25.chunk.js.map": "/wazunga-page/static/js/2.9e3c8e25.chunk.js.map",
+    "static/js/2.1571ad96.chunk.js": "/wazunga-page/static/js/2.1571ad96.chunk.js",
+    "static/js/2.1571ad96.chunk.js.map": "/wazunga-page/static/js/2.1571ad96.chunk.js.map",
     "index.html": "/wazunga-page/index.html",
-    "precache-manifest.ed2cad37046e5455c5baa223327a92f4.js": "/wazunga-page/precache-manifest.ed2cad37046e5455c5baa223327a92f4.js",
+    "precache-manifest.01fda452ce8979cc88105f11043940b4.js": "/wazunga-page/precache-manifest.01fda452ce8979cc88105f11043940b4.js",
     "service-worker.js": "/wazunga-page/service-worker.js",
     "static/css/2.a2c18f5e.chunk.css.map": "/wazunga-page/static/css/2.a2c18f5e.chunk.css.map",
-    "static/css/main.e3b827c6.chunk.css.map": "/wazunga-page/static/css/main.e3b827c6.chunk.css.map",
-    "static/js/2.9e3c8e25.chunk.js.LICENSE.txt": "/wazunga-page/static/js/2.9e3c8e25.chunk.js.LICENSE.txt",
+    "static/css/main.b6575579.chunk.css.map": "/wazunga-page/static/css/main.b6575579.chunk.css.map",
+    "static/js/2.1571ad96.chunk.js.LICENSE.txt": "/wazunga-page/static/js/2.1571ad96.chunk.js.LICENSE.txt",
     "static/media/DataAnalytics.png": "/wazunga-page/static/media/DataAnalytics.ccabfe72.png",
     "static/media/DataBase.png": "/wazunga-page/static/media/DataBase.ffbe88e7.png",
     "static/media/Github-512.png": "/wazunga-page/static/media/Github-512.5a27421b.png",
@@ -25,13 +25,15 @@
     "static/media/instagram.svg": "/wazunga-page/static/media/instagram.788b0d6e.svg",
     "static/media/manas.png": "/wazunga-page/static/media/manas.fc615591.png",
     "static/media/sergio.png": "/wazunga-page/static/media/sergio.f17a8528.png",
-    "static/media/twitter.svg": "/wazunga-page/static/media/twitter.172112d0.svg"
+    "static/media/twitter.svg": "/wazunga-page/static/media/twitter.172112d0.svg",
+    "static/media/wazunga-brand.png": "/wazunga-page/static/media/wazunga-brand.592547ca.png",
+    "static/media/wazunga-transparent.png": "/wazunga-page/static/media/wazunga-transparent.4271ec7f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.488f3d88.js",
+    "static/js/runtime-main.eab9cd56.js",
     "static/css/2.a2c18f5e.chunk.css",
-    "static/js/2.9e3c8e25.chunk.js",
-    "static/css/main.e3b827c6.chunk.css",
-    "static/js/main.978fa050.chunk.js"
+    "static/js/2.1571ad96.chunk.js",
+    "static/css/main.b6575579.chunk.css",
+    "static/js/main.1e253f43.chunk.js"
   ]
 }
