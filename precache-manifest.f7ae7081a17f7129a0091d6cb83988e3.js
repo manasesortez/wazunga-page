@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37e67ff124ece5eb8917a54a05bf87d4",
+    "revision": "1853ef59039792dee0b1cca74fcae83a",
     "url": "/wazunga-page/index.html"
   },
   {
-    "revision": "8d29fec8a27af8d77dbb",
+    "revision": "ce7360a9447cbe6f7541",
     "url": "/wazunga-page/static/css/2.a2c18f5e.chunk.css"
   },
   {
-    "revision": "af71182e7e48e0573841",
-    "url": "/wazunga-page/static/css/main.b6575579.chunk.css"
+    "revision": "dedeb9151a9873440a4e",
+    "url": "/wazunga-page/static/css/main.bd97e421.chunk.css"
   },
   {
-    "revision": "8d29fec8a27af8d77dbb",
-    "url": "/wazunga-page/static/js/2.1571ad96.chunk.js"
+    "revision": "ce7360a9447cbe6f7541",
+    "url": "/wazunga-page/static/js/2.ab4bf4eb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/wazunga-page/static/js/2.1571ad96.chunk.js.LICENSE.txt"
+    "url": "/wazunga-page/static/js/2.ab4bf4eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af71182e7e48e0573841",
-    "url": "/wazunga-page/static/js/main.1e253f43.chunk.js"
+    "revision": "dedeb9151a9873440a4e",
+    "url": "/wazunga-page/static/js/main.d7362fa6.chunk.js"
   },
   {
     "revision": "c680a01a9575fc9eb434",
@@ -48,6 +48,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wazunga-page/static/media/Vision.1f856282.png"
   },
   {
+    "revision": "2fcc85cf8cf85739f3f7b2d2921b3ead",
+    "url": "/wazunga-page/static/media/analisis.2fcc85cf.png"
+  },
+  {
+    "revision": "9b0ca09ec104fd28dedb431407fed3cf",
+    "url": "/wazunga-page/static/media/black.9b0ca09e.png"
+  },
+  {
+    "revision": "3b72ba656339545be17326b5626c6cb0",
+    "url": "/wazunga-page/static/media/computadora.3b72ba65.png"
+  },
+  {
     "revision": "e12d3939207918abc69bec810a68891b",
     "url": "/wazunga-page/static/media/facebook.22f1db81.e12d3939.svg"
   },
@@ -68,12 +80,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wazunga-page/static/media/manas.fc615591.png"
   },
   {
+    "revision": "b8b76572b7087cf474b664b73be92dba",
+    "url": "/wazunga-page/static/media/nub.b8b76572.png"
+  },
+  {
+    "revision": "a4b3ea4799647bbbacb4871be1e0a9a7",
+    "url": "/wazunga-page/static/media/ordenador.a4b3ea47.png"
+  },
+  {
     "revision": "f17a85280271b2483297900ff3cc3d13",
     "url": "/wazunga-page/static/media/sergio.f17a8528.png"
   },
   {
     "revision": "172112d026f0cdf24ee1829b0c10c729",
     "url": "/wazunga-page/static/media/twitter.172112d0.svg"
+  },
+  {
+    "revision": "1bbfd76ebe46baad0239eddb4616c31f",
+    "url": "/wazunga-page/static/media/ui.1bbfd76e.png"
+  },
+  {
+    "revision": "7ae2d0af64d97e42cf5d23ef2a6971aa",
+    "url": "/wazunga-page/static/media/vision.7ae2d0af.png"
   },
   {
     "revision": "592547ca1456ae6ccb92943569d471e3",
