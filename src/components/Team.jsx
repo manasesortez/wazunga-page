@@ -10,7 +10,7 @@ const Team = () => {
     {
       name: 'Sergio Bernal',
       position: 'Wazunga Founder',
-      about: 'Full-Stack developer, JS-Lover and GNU/Linux enthusiast. Creador del concepto  "Wazunga", una idea que surgió durante mis años universitarios y que poco a poco junto con Alberto, la estamos haciendo posible.',
+      about: 'Full-Stack developer, JS-Lover and GNU/Linux enthusiast. Creador del concepto  "Wazunga", una idea que surgió durante mis años universitarios y que poco a poco junto con Alberto, la estamos haciendo posible, siempre con el objetivo de mantenerse actualizado.',
       isFirst: true,
       socials: {
         github: 'https://github.com/nhulox97',
@@ -23,7 +23,7 @@ const Team = () => {
     {
       name: 'Alberto Turcios',
       position: 'Wazunga Co-Founder',
-      about: 'Full-Stack developer, enthusiast and graphic design develop, a creative person, Junto a Sergio surge la Idea de crear Wazunga, un concepto que cada dia se va haciendo realidad, nuestro interes, es poder innovar y ofrecer un software de calidad "Made in El Salvador".',
+      about: 'Full-Stack developer, enthusiast and graphic designer, a creative person, Junto a Sergio surge la idea de crear Wazunga, un concepto que cada día se va haciendo realidad, nuestro interés, es poder innovar y ofrecer un software de calidad "Made in El Salvador".',
       isFirst: false,
       socials: {
         github: 'https://github.com/manasesortez',

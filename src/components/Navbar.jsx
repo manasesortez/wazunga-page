@@ -11,7 +11,7 @@ import Wazunga from './wazungaAbout'
 
 class Navbar extends React.Component {
   state = {
-    wazungaRef:React.createRef(),
+    wazungaRef: React.createRef(),
     homeRef: React.createRef(),
     teamRef: React.createRef(),
     footerRef: React.createRef(),
@@ -22,8 +22,8 @@ class Navbar extends React.Component {
     return (
       <div>
         <div ref={this.state.homeRef}><Welcome /></div>
-        <div ref={this.state.wazungaRef}><Wazunga /></div> 
         <div ref={this.state.servicesRef}><Services /></div>
+        <div ref={this.state.wazungaRef}><Wazunga /></div>
         <div ref={this.state.teamRef}><Team /></div>
         <div ref={this.state.footerRef}><Footer /></div>
       </div >
@@ -59,19 +59,14 @@ class Navbar extends React.Component {
               </svg>
             </label>
             <ol className="menu__content" style={{ marginTop: "50px" }}>
+
               <li className="menu-item" style={{ marginBottom: "30px" }}>
                 <a href="#0" className="button__nhulox"><Link to="/wazunga-page" onClick={(e) => {
                   this.main = this.state.homeRef
                   this.handleScroll(e)
                 }}>Home</Link></a>
               </li>
-              
-              <li className="menu-item" style={{ marginBottom: "30px" }}>
-                <a href="#0" className="button__nhulox"><Link to="/wazunga-page/about-us" onClick={(e) => {
-                  this.main = this.state.wazungaRef
-                  this.handleScroll(e)
-                }}>About</Link></a>
-              </li>
+
 
               <li className="menu-item" style={{ marginBottom: "30px" }}>
                 <a href="#0" className="button__nhulox"><Link to="/wazunga-page/services" onClick={(e) => {
@@ -79,18 +74,28 @@ class Navbar extends React.Component {
                   this.handleScroll(e)
                 }}>Services</Link></a>
               </li>
+
+              <li className="menu-item" style={{ marginBottom: "30px" }}>
+                <a href="#0" className="button__nhulox"><Link to="/wazunga-page/about-us" onClick={(e) => {
+                  this.main = this.state.wazungaRef
+                  this.handleScroll(e)
+                }}>About Us</Link></a>
+              </li>
+
               <li className="menu-item" style={{ marginBottom: "30px" }}>
                 <a href="#0" className="button__nhulox"><Link to="/wazunga-page/team" onClick={(e) => {
                   this.main = this.state.teamRef
                   this.handleScroll(e)
-                }}>Team</Link></a>
+                }}>Our Team</Link></a>
               </li>
+
               <li className="menu-item" style={{ marginBottom: "30px" }}>
                 <a href="#0" className="button__nhulox"><Link to="/wazunga-page/footer" onClick={(e) => {
                   this.main = this.state.footerRef
                   this.handleScroll(e)
-                }}>Footer</Link></a>
+                }}>Contact Us</Link></a>
               </li>
+
             </ol>
           </div>
           <NavbarLogo logo={brand} />
