@@ -7,14 +7,14 @@
   width: auto;
   background-color: #dedede;
   overflow: hidden;
-  padding: 100px 0;
+  padding: 110px;
 }
 
 .inner-container {
   width: 65%;
   float: right;
   background-color: #fdfdfd;
-  padding: 150px;
+  padding: 55px;
 }
 
 .inner-container h1 {
